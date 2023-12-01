@@ -1,0 +1,21 @@
+# Compiled Java files
+*.class
+
+# Output files
+*.jar
+*.war
+*.ear
+
+# IntelliJ IDEA specific files and directories
+.idea/
+*.iml
+.idea_modules/
+out/
+bin/
+.github/
+
+*.DS_Store
+
+Data/latimes.gz
+Data/latimes-index
+Data/DemoLaTimes-index
