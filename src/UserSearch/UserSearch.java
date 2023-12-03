@@ -143,11 +143,11 @@ public class UserSearch {
             index++;
         }
 
-        PriorityQueue<Map.Entry<String, Double>> maxHeap = new PriorityQueue<>(
-                (a, b) -> b.getValue().compareTo(a.getValue())
-        );
         int resultIndex = 1;
         for (TREC result : writeToFile) {
+            PriorityQueue<Map.Entry<String, Double>> maxHeap = new PriorityQueue<>(
+                    (a, b) -> b.getValue().compareTo(a.getValue())
+            );
             BufferedReader document = getDocHandler.retrieveDocument(result.getDocNO());
             BufferedReader documentMetaData = getDocHandler.retrieveDocumentMetaData(result.getDocNO());
 
