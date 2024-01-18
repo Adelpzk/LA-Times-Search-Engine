@@ -46,9 +46,6 @@ To execute the UserSearch program:
 
 - **Top 10 Results:** The engine displays the top 10 search results, providing a concise and relevant output.
 
-### Video Demo
-
-
 
 Feel free to explore the LA Times Search Engine and delve into the rich content of documents from 1989 and 1990!
 
