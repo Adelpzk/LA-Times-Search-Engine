@@ -2,6 +2,10 @@
 
 Welcome to the LA Times Search Engine project by Adel Pazoki Toroudi. This search engine is designed to retrieve information from LA Times documents spanning the years 1989 and 1990. The engine incorporates query-biased snippets and showcases the top 10 search results.
 
+# Video Demo: 
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/3NtOeLSpI-w/0.jpg)](https://www.youtube.com/watch?v=3NtOeLSpI-w)
+
 ## Indexing LA Times Documents
 
 ### IndexEngine Program
